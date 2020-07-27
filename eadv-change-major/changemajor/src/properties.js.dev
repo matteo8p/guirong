@@ -1,0 +1,4 @@
+export const properties = {
+  environment: "DEV",
+  endpoint: "https://rsxr1z598d.execute-api.us-west-2.amazonaws.com/DEV",
+};

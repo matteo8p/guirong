@@ -1,0 +1,66 @@
+.hero-bg-img {
+  background-image: url("../images/hero_image2x.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+}
+
+/* Make hero background image responsive */
+.pane-bundle-hero {
+  background-size: cover;
+  width: 100%;
+  margin-top: -1px;
+}
+
+/* Added for overflow of text elements */
+.pane-bundle-hero .hero-wrapper {
+  overflow: scroll;
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+/* Select element height */
+.pane-bundle-hero.hero-height-hero .hero-wrapper {
+  height: 380px;
+}
+/* Select element height */
+.pane-bundle-hero.hero-height-jumbohero .hero-wrapper {
+  height: 700px;
+}
+
+.pane-bundle-hero .hero-wrapper::-webkit-scrollbar {
+  /* WebKit */
+  width: 0;
+  height: 0;
+}
+
+.pane-bundle-hero .pane-content {
+  padding: 0 0.9375em 1em 0.9375em;
+}
+.pane-bundle-hero p {
+  margin: 0;
+  padding: 0;
+}
+.pane-bundle-hero h1,
+.pane-bundle-hero h2 {
+  color: white;
+  font-size: 3.75rem;
+  font-weight: 900;
+  line-height: 1;
+  margin: 0;
+  padding: 5.3125rem 0.9375rem 0.625rem 0.9375rem;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.pane-bundle-hero .field-name-field-webspark-hero-blurb {
+  max-width: 900px;
+  margin-bottom: 1em;
+  color: white;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-weight: 900;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.pane-bundle-hero.hero-height-hero .field-name-field-webspark-hero-height {
+  display: none;
+}

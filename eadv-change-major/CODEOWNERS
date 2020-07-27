@@ -1,0 +1,4 @@
+*                            @ASU/eadvisor-web-writers
+CODEOWNERS                   @ASU/devops-admins
+Jenkinsfile                  @ASU/devops-admins @ASU/devops-infrastructure
+/terraform/                  @ASU/devops-infrastructure

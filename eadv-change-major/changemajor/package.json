@@ -1,0 +1,58 @@
+{
+  "name": "catalog-react-router",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-regular-svg-icons": "^5.12.0",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/react-fontawesome": "^0.1.8",
+    "bootstrap": "^4.4.1",
+    "davexmlrpc": "^0.4.24",
+    "elasticsearch": "^16.7.1",
+    "hashmap": "^2.4.0",
+    "hashset": "0.0.6",
+    "http-aws-es": "^6.0.0",
+    "i": "^0.3.6",
+    "jquery": "^3.4.1",
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.isempty": "^4.4.0",
+    "lodash.isequal": "^4.5.0",
+    "nodemailer": "^6.4.6",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "npm": "^6.13.7",
+    "query-string": "^6.12.1",
+    "react": "^16.12.0",
+    "react-autosuggest": "^9.4.3",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-datepicker": "^2.11.0",
+    "react-dom": "^16.12.0",
+    "react-fontawesome": "^1.7.1",
+    "react-ga": "^2.7.0",
+    "react-html-parser": "^2.0.2",
+    "react-native-searchable-dropdown": "^1.1.1",
+    "react-responsive": "^7.0.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.3.1",
+    "react-select": "^3.1.0",
+    "sjcl": "^1.0.8",
+    "test": "^0.6.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "aws s3 sync build/ s3://catalog-react-dev --acl public-read"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
