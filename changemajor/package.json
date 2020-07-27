@@ -15,7 +15,7 @@
     "hashset": "0.0.6",
     "http-aws-es": "^6.0.0",
     "i": "^0.3.6",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "lodash.clonedeep": "^4.5.0",
     "lodash.isempty": "^4.4.0",
     "lodash.isequal": "^4.5.0",
